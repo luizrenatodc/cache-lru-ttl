@@ -1,0 +1,12 @@
+{
+  "name": "cache-lru-ttl",
+  "version": "1.0.0",
+  "description": "Cache LRU com TTL, single-flight contra cache stampede e stale-while-revalidate, sem dependências.",
+  "type": "module",
+  "main": "src/cache.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": { "node": ">=20" }
+}
